@@ -21,8 +21,9 @@ header {
     justify-content: space-between;
     align-items: center;
     top: 0;
-    min-width: 390px;
+    min-width: 400px;
     /* max-width: 768px; */
+    padding: 0 20px;
 }
 
 header > a {
