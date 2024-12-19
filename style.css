@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
 * {
     padding: 0;
     margin: 0;
@@ -21,23 +24,50 @@ header {
     justify-content: space-between;
     align-items: center;
     top: 0;
-    /* min-width: 400px; */
-    /* max-width: 768px; */
     padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+/* Hero1 */
+
+header .hero1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 @media {
     header {
-        min-width: 400px;
+        min-width: 385px;
     }
 }
 
-header > a {
+header .hero1 > a {
     color: white;
 }
 
-header a i {
+header .hero1 a i {
     font-size: 30px;
+}
+
+/* Hero2 */
+
+header .hero2 {
+    width: 60%;
+    margin-top: 10px;
+}
+
+header .hero2 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header .hero2 ul a {
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    font-family: "Nunito", serif;
 }
 
 /* Main */
@@ -48,7 +78,7 @@ main {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 105px;
 }
 
 main div {
