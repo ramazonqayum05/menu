@@ -9,7 +9,7 @@
 
 .container {
     margin: auto;
-    min-width: 400px;
+    min-width: 370px;
     border: 1px solid black;
     padding: 20px 20px;
     display: flex;
@@ -38,7 +38,7 @@ header .hero1 {
 
 @media {
     header {
-        min-width: 385px;
+        min-width: 370px;
     }
 }
 
