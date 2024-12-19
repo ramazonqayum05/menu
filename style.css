@@ -78,11 +78,11 @@ main {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
-    margin-top: 105px;
+    margin-top: 115px;
 }
 
 main div {
-    width: 150px;
-    height: 100px;
+    width: 155px;
+    height: 200px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
