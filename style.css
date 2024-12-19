@@ -8,11 +8,22 @@
     margin: auto;
     max-width: 768px;
     border: 1px solid black;
-    padding: 0 20px;
+    padding: 20px 20px 0;
 }
 
 header {
     width: 100%;
     border: 1px solid black;
+
+
+
     height: 200px;
+}
+
+header a {
+    color: black;
+}
+
+header a i {
+    font-size: 50px;
 }
