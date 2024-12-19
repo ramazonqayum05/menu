@@ -6,9 +6,9 @@
 
 .container {
     margin: auto;
-    max-width: 768px;
+    max-width: 400px;
     border: 1px solid black;
-    padding: 10px 10px 0;
+    padding: 20px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,9 +21,15 @@ header {
     justify-content: space-between;
     align-items: center;
     top: 0;
-    min-width: 400px;
+    /* min-width: 400px; */
     /* max-width: 768px; */
     padding: 10px 20px;
+}
+
+@media {
+    header {
+        min-width: 400px;
+    }
 }
 
 header > a {
@@ -34,6 +40,19 @@ header a i {
     font-size: 30px;
 }
 
-#menu {
-    /* margin-right: 700px; */
+/* Main */
+
+main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+main div {
+    width: 171px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
