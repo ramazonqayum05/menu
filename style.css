@@ -9,35 +9,29 @@
     max-width: 768px;
     border: 1px solid black;
     padding: 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
     position: fixed;
-    /* width: 748px; */
-    border: 1px solid black;
-    background-color: rgb(0, 94, 255);
+    background-color: rgb(37, 110, 237);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    top: 0;
+    min-width: 500px;
 }
 
 header > a {
-    color: black;
+    color: white;
 }
 
 header a i {
-    font-size: 50px;
-    margin-right: 485px;
+    font-size: 30px;
 }
 
-header ul {
-    display: flex;
-    gap: 50px;
-    list-style: none;
-}
-
-header ul a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
+#menu {
+    /* margin-right: 700px; */
 }
