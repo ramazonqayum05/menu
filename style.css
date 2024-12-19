@@ -46,7 +46,7 @@ main {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 20px;
     justify-content: space-between;
     margin-top: 50px;
 }
