@@ -65,6 +65,10 @@ header .hero1 a {
     margin-top: 10px;   
 }
 
+.menu-toggle:active {
+    background-color: #2832c2;
+}
+
 .button-div {
     display: none;
 }
