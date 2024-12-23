@@ -86,6 +86,8 @@ header .hero1 .contact a {
     background-color: #0047AB;
     font-size: 30px;
     color: white;
+    outline: none;
+    border: none;
 }
 
 .button-div {
