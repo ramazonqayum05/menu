@@ -69,8 +69,8 @@ header .hero1 a {
 
 .button-div:hover .menu {
     display: block;
-    top: 35px;
-    right: 20px;
+    top: 0;
+    right: 0;
 }
 
 
