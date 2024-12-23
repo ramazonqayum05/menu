@@ -229,4 +229,8 @@ header .hero3 ul a:hover {
     .button-div {
         display: block;
     }
+
+    header .hero1 img {
+        width: 90px;
+    }
 }
