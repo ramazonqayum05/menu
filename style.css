@@ -82,7 +82,7 @@ header .hero1 a {
     display: none;
     position: fixed;
     background-color: #2832c2;
-    padding: 50px 0 20px 20px;
+    padding: 60px 50px 20px 20px;
 }
 
 .button-div:hover .menu {
@@ -109,11 +109,16 @@ header .hero1 a {
     color: white;
     font-family: "Nunito", serif;
     margin-right: 50px;
+    transition: .5s ease all;
+}
+
+.menu ul a:hover {
+    color: #373737;
 }
 
 .menu ul i {
-    color: rgba(0, 0, 0, 0.172);
-    margin-right: 5px;
+    color: #373737;
+    margin-right: 10px;
 }
 
 .line {
@@ -124,14 +129,49 @@ header .hero1 a {
 
 .line1 {
     border: 1px solid rgba(0, 0, 0, 0.095);
-    margin: 5px 0 50px 0;
+    margin: 5px 0 130px 0;
     width: 110px;
+}
+
+.head {
+    background-color: rgb(0, 81, 255);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.head i {
+    color: #373737;
+    margin-right: 10px;
 }
 
 .menu .cont {
     text-decoration: none;
     font-family: "Nunito", serif;
     color: white;
+    transition: all .5s ease;
+}
+
+.menu .cont:hover {
+    color: #373737;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    position: absolute;
+    left: 0;
+    background-color: #37373729;
+    bottom: 0;
+    padding: 10px 20px;
+}
+
+.icons i {
+    color: #373737;
+    font-size: 30px;
 }
 
    /* Hero2 */
