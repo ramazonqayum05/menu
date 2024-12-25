@@ -74,7 +74,7 @@ header .hero1 .contact a {
 
 .menu-toggle {
     display: none;
-    /* padding: 5px 10px; */
+    padding: 0 10px;
     border-radius: 5px;
     outline: none;
     cursor: pointer;
@@ -82,11 +82,10 @@ header .hero1 .contact a {
     border: none;
     /* margin-top: 10px;   */
     font-size: 20px; 
-    background-color: #0047AB;
+    background-color:#0047AB;
     font-size: 30px;
     color: white;
-    outline: none;
-    border: none;
+    border: 1ps solid black;
 }
 
 .button-div {
